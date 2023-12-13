@@ -1,0 +1,45 @@
+{
+  "uid" : "1f0d841857d5d5f7",
+  "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude < -90 / ResourceType : OperationOutcome",
+  "time" : {
+    "duration" : 26
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 'Une erreur interne s\\'est produite' to equal 'La latitude renseignée est hors des b…'",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / HealthcareService - Near / Latitude < -90.\n        Test description: ResourceType : OperationOutcome.\n        Error message: expected 'Une erreur interne s\\'est produite' to equal 'La latitude renseignée est hors des b…'.\n        Stacktrace: AssertionError: expected 'Une erreur interne s\\'est produite' to equal 'La latitude renseignée est hors des b…'\n   at Object.eval sandbox-script.js:2:62).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1f0d841857d5d5f7.json",
+  "parameterValues" : [ ]
+}

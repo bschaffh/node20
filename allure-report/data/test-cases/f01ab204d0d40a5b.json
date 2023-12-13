@@ -1,0 +1,45 @@
+{
+  "uid" : "f01ab204d0d40a5b",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 36
+  },
+  "status" : "failed",
+  "statusMessage" : "La resource Location (id: 16) a une structure non conforme à l'IG.: expected false to equal true",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié.\n        Test description: Toutes les resources possèdent leurs champs obligatoires.\n        Error message: La resource Location (id: 16) a une structure non conforme à l'IG.: expected false to equal true.\n        Stacktrace: AssertionError: La resource Location (id: 16) a une structure non conforme à l'IG.: expected false to equal true\n   at Object.eval sandbox-script.js:1:89).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f01ab204d0d40a5b.json",
+  "parameterValues" : [ ]
+}

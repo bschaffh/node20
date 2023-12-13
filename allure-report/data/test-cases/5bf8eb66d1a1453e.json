@@ -1,0 +1,39 @@
+{
+  "uid" : "5bf8eb66d1a1453e",
+  "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([system]|[code]) / Charactertic: [code]",
+  "time" : {
+    "duration" : 892
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bf8eb66d1a1453e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "8e1eb91a4e89c27c",
+  "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Serice_type (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 221
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e1eb91a4e89c27c.json",
+  "parameterValues" : [ ]
+}

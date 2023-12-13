@@ -1,0 +1,45 @@
+{
+  "uid" : "24969bb8062d6d33",
+  "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude > 90 / Status 400",
+  "time" : {
+    "duration" : 29
+  },
+  "status" : "failed",
+  "statusMessage" : "expected response to have status code 400 but got 500",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / HealthcareService - Near / Latitude > 90.\n        Test description: Status 400.\n        Error message: expected response to have status code 400 but got 500.\n        Stacktrace: AssertionError: expected response to have status code 400 but got 500\n   at Object.eval sandbox-script.js:1:61).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "24969bb8062d6d33.json",
+  "parameterValues" : [ ]
+}

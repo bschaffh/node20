@@ -1,0 +1,39 @@
+{
+  "uid" : "642d421f8f965a45",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #1 - Extraction complète / Inclusion des Location des HealthcareService",
+  "time" : {
+    "duration" : 2969
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "642d421f8f965a45.json",
+  "parameterValues" : [ ]
+}

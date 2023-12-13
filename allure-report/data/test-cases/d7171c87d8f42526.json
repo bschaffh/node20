@@ -1,0 +1,45 @@
+{
+  "uid" : "d7171c87d8f42526",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Résultats avec bon identifiants",
+  "time" : {
+    "duration" : 25
+  },
+  "status" : "failed",
+  "statusMessage" : "Le champ entry n'est pas défini. Impossible de parcourir les résultats: expected undefined to not equal undefined",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés.\n        Test description: Résultats avec bon identifiants.\n        Error message: Le champ entry n'est pas défini. Impossible de parcourir les résultats: expected undefined to not equal undefined.\n        Stacktrace: AssertionError: Le champ entry n'est pas défini. Impossible de parcourir les résultats: expected undefined to not equal undefined\n   at Object.eval sandbox-script.js:2:90).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d7171c87d8f42526.json",
+  "parameterValues" : [ ]
+}

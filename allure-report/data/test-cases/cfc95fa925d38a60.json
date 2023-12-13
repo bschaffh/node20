@@ -1,0 +1,39 @@
+{
+  "uid" : "cfc95fa925d38a60",
+  "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #12 - Recherche d’offre en anomalie sur une région avec un statut à traiter ou à vérifier / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 189
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfc95fa925d38a60.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "a407154ef837a0e0",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #2 - Extraction de l’ensemble des offres de santé d’un établissement / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 22
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a407154ef837a0e0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "ec0988c5d0ceb765",
+  "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #9 - Recherche sur une ville - Code Postal / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 22
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec0988c5d0ceb765.json",
+  "parameterValues" : [ ]
+}

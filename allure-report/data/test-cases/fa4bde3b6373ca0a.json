@@ -1,0 +1,45 @@
+{
+  "uid" : "fa4bde3b6373ca0a",
+  "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _filter incorrect / ResourceType : OperationOutcome",
+  "time" : {
+    "duration" : 27
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 'Une erreur interne s\\'est produite' to equal 'Les paramètres de filtre sont incorre…'",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _filter incorrect.\n        Test description: ResourceType : OperationOutcome.\n        Error message: expected 'Une erreur interne s\\'est produite' to equal 'Les paramètres de filtre sont incorre…'.\n        Stacktrace: AssertionError: expected 'Une erreur interne s\\'est produite' to equal 'Les paramètres de filtre sont incorre…'\n   at Object.eval sandbox-script.js:2:48).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fa4bde3b6373ca0a.json",
+  "parameterValues" : [ ]
+}

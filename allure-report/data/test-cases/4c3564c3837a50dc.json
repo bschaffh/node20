@@ -1,0 +1,45 @@
+{
+  "uid" : "4c3564c3837a50dc",
+  "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et type de patientèle unique / Nombre de totaux identiques",
+  "time" : {
+    "duration" : 2626
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 8932 to equal 8929",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et type de patientèle unique.\n        Test description: Nombre de totaux identiques.\n        Error message: expected 8932 to equal 8929.\n        Stacktrace: AssertionError: expected 8932 to equal 8929\n   at Object.eval sandbox-script.js:2:50).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4c3564c3837a50dc.json",
+  "parameterValues" : [ ]
+}

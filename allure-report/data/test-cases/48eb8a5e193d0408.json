@@ -1,0 +1,39 @@
+{
+  "uid" : "48eb8a5e193d0408",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / Intégrité _revinclude",
+  "time" : {
+    "duration" : 36
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48eb8a5e193d0408.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,39 @@
+{
+  "uid" : "e56757e4dce1b97c",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / resourceType Bundle et Type SearchSet",
+  "time" : {
+    "duration" : 36
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e56757e4dce1b97c.json",
+  "parameterValues" : [ ]
+}

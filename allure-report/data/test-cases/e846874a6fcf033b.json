@@ -1,0 +1,45 @@
+{
+  "uid" : "e846874a6fcf033b",
+  "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]) / Nombre de totaux identiques",
+  "time" : {
+    "duration" : 975
+  },
+  "status" : "failed",
+  "statusMessage" : "expected 149836 to equal 149759",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]).\n        Test description: Nombre de totaux identiques.\n        Error message: expected 149836 to equal 149759.\n        Stacktrace: AssertionError: expected 149836 to equal 149759\n   at Object.eval sandbox-script.js:2:9).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e846874a6fcf033b.json",
+  "parameterValues" : [ ]
+}

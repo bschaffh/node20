@@ -1,0 +1,45 @@
+{
+  "uid" : "207a41bcde2773a0",
+  "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq with résultat) / Nombre de totaux identiques",
+  "time" : {
+    "duration" : 25
+  },
+  "status" : "failed",
+  "statusMessage" : "expected +0 to equal 1",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / Location - Capacity / last_updated (eq with résultat).\n        Test description: Nombre de totaux identiques.\n        Error message: expected +0 to equal 1.\n        Stacktrace: AssertionError: expected +0 to equal 1\n   at Object.eval sandbox-script.js:2:84).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "207a41bcde2773a0.json",
+  "parameterValues" : [ ]
+}

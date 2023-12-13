@@ -1,0 +1,39 @@
+{
+  "uid" : "3a3cdf4f94fd2bfe",
+  "name" : "ws-diffusion-fhir / HealthcareService - Name / Rercherche par name, sans _include / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 1449
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a3cdf4f94fd2bfe.json",
+  "parameterValues" : [ ]
+}

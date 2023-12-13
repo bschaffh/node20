@@ -1,4 +1,15 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 1,
+  "items" : [ {
+    "uid" : "091f0ed499776989a69cd83eb8de140e",
+    "name" : "Tests ROR National",
+    "statistic" : {
+      "failed" : 78,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 253,
+      "unknown" : 0,
+      "total" : 331
+    }
+  } ]
 }

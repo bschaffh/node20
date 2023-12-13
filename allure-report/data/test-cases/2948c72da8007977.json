@@ -1,0 +1,45 @@
+{
+  "uid" : "2948c72da8007977",
+  "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([code]) / Tag correcte",
+  "time" : {
+    "duration" : 1331
+  },
+  "status" : "failed",
+  "statusMessage" : "Cannot read properties of null (reading 'forEach')",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([code]).\n        Test description: Tag correcte.\n        Error message: Cannot read properties of null (reading 'forEach').\n        Stacktrace: TypeError: Cannot read properties of null (reading 'forEach')\n   at Object.eval sandbox-script.js:1:10).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2948c72da8007977.json",
+  "parameterValues" : [ ]
+}

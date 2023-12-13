@@ -1,0 +1,45 @@
+{
+  "uid" : "e61a90cb37df0a4d",
+  "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 454
+  },
+  "status" : "failed",
+  "statusMessage" : "La resource HealthcareService (id: 26906433) a une structure non conforme à l'IG.: expected false to equal true",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic (|[code]).\n        Test description: Toutes les resources possèdent leurs champs obligatoires.\n        Error message: La resource HealthcareService (id: 26906433) a une structure non conforme à l'IG.: expected false to equal true.\n        Stacktrace: AssertionError: La resource HealthcareService (id: 26906433) a une structure non conforme à l'IG.: expected false to equal true\n   at Object.eval sandbox-script.js:1:35).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e61a90cb37df0a4d.json",
+  "parameterValues" : [ ]
+}

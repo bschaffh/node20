@@ -1,0 +1,45 @@
+{
+  "uid" : "177c8d65bc1b3efc",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Nombre de totaux identiques",
+  "time" : {
+    "duration" : 25
+  },
+  "status" : "failed",
+  "statusMessage" : "expected +0 to equal 2",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés.\n        Test description: Nombre de totaux identiques.\n        Error message: expected +0 to equal 2.\n        Stacktrace: AssertionError: expected +0 to equal 2\n   at Object.eval sandbox-script.js:3:90).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "177c8d65bc1b3efc.json",
+  "parameterValues" : [ ]
+}

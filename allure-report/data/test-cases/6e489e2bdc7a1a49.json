@@ -1,0 +1,39 @@
+{
+  "uid" : "6e489e2bdc7a1a49",
+  "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _include incorrect / Nombre de résultats indentiques",
+  "time" : {
+    "duration" : 2478
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e489e2bdc7a1a49.json",
+  "parameterValues" : [ ]
+}

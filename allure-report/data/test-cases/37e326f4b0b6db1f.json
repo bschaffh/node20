@@ -1,0 +1,39 @@
+{
+  "uid" : "37e326f4b0b6db1f",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #5 - Données capacitaires d’une offre opérationnelle / resourceType Bundle et Type SearchSet",
+  "time" : {
+    "duration" : 35
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "37e326f4b0b6db1f.json",
+  "parameterValues" : [ ]
+}

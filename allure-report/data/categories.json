@@ -1,5 +1,1027 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "La resource HealthcareService (id: 26909380) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "df1b923d1d5841ff",
+        "parentUid" : "122f3eacc9f4141ec2ab628d469eb49e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et type de patientèle unique / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "3172654bacce461a",
+        "parentUid" : "122f3eacc9f4141ec2ab628d469eb49e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence (Plusieurs choix) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "b2ed66a160f25d28",
+        "parentUid" : "122f3eacc9f4141ec2ab628d469eb49e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté >= 5 ans / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "eaff10c7276cbf74",
+        "parentUid" : "122f3eacc9f4141ec2ab628d469eb49e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence ([system|code]) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "c42e53ca320ef787",
+        "parentUid" : "122f3eacc9f4141ec2ab628d469eb49e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "122f3eacc9f4141ec2ab628d469eb49e"
+    }, {
+      "name" : "La resource Location (id: 1000) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (lt 10) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "2fb99a0c30115637",
+        "parentUid" : "653fbbf66e89c5c4ac6a41ae4306f421",
+        "status" : "failed",
+        "time" : {
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "653fbbf66e89c5c4ac6a41ae4306f421"
+    }, {
+      "name" : "expected 8932 to equal 8929",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et type de patientèle unique / Nombre de totaux identiques",
+        "uid" : "4c3564c3837a50dc",
+        "parentUid" : "07cc20c35758d61f9e80d6fea0d0d1dd",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07cc20c35758d61f9e80d6fea0d0d1dd"
+    }, {
+      "name" : "La resource Organization (id: 25366062) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Name / Rercherche par organization:name:above / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "9bd33f088a07fcaa",
+        "parentUid" : "17c6a2c5495b02104743a0eb4393ef7a",
+        "status" : "failed",
+        "time" : {
+          "duration" : 329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par _filter sur organization:name:above / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "38b146e8a3c5b087",
+        "parentUid" : "17c6a2c5495b02104743a0eb4393ef7a",
+        "status" : "failed",
+        "time" : {
+          "duration" : 340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "17c6a2c5495b02104743a0eb4393ef7a"
+    }, {
+      "name" : "La resource Location (id: 10001) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (gt 10) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "90a823c4ffb7b2b8",
+        "parentUid" : "0e44dce711bdbd87e7ac0761c0ff6a2c",
+        "status" : "failed",
+        "time" : {
+          "duration" : 13761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e44dce711bdbd87e7ac0761c0ff6a2c"
+    }, {
+      "name" : "La resource Location (id: 1305) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "35bba6a8d0efc09",
+        "parentUid" : "d1b595fab77277cb7e477725c3200586",
+        "status" : "failed",
+        "time" : {
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([system]|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "ab1d6c5545e4fd71",
+        "parentUid" : "d1b595fab77277cb7e477725c3200586",
+        "status" : "failed",
+        "time" : {
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "33f8dbc686ccbe51",
+        "parentUid" : "d1b595fab77277cb7e477725c3200586",
+        "status" : "failed",
+        "time" : {
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d1b595fab77277cb7e477725c3200586"
+    }, {
+      "name" : "expected 'Une erreur interne s\\'est produite' to equal 'La latitude renseignée est hors des b…'",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude < -90 / ResourceType : OperationOutcome",
+        "uid" : "1f0d841857d5d5f7",
+        "parentUid" : "9e0e20ab9e4d9c57146b0dac92f9053d",
+        "status" : "failed",
+        "time" : {
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude > 90 / ResourceType : OperationOutcome",
+        "uid" : "5d29385e673d868c",
+        "parentUid" : "9e0e20ab9e4d9c57146b0dac92f9053d",
+        "status" : "failed",
+        "time" : {
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e0e20ab9e4d9c57146b0dac92f9053d"
+    }, {
+      "name" : "expected 7126 to equal 7124",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté >= 5 ans / Nombre de totaux identiques",
+        "uid" : "7475ec5b106ae675",
+        "parentUid" : "e29691bdbda9c13790b83b865f915f4f",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e29691bdbda9c13790b83b865f915f4f"
+    }, {
+      "name" : "expected 'Une erreur interne s\\'est produite' to equal 'Les paramètres de filtre sont incorre…'",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _filter incorrect / ResourceType : OperationOutcome",
+        "uid" : "fa4bde3b6373ca0a",
+        "parentUid" : "734037470a72a160ff7fafa9f198c952",
+        "status" : "failed",
+        "time" : {
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "734037470a72a160ff7fafa9f198c952"
+    }, {
+      "name" : "La resource Location (id: 136) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Tous critères / identifier:of-type (with result) Copy / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "482b8b1879d197c3",
+        "parentUid" : "a51d84af00cd26b6a3d83e526ff5953d",
+        "status" : "failed",
+        "time" : {
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Tous critères / identifier (with result) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "7e755e1609e478ad",
+        "parentUid" : "a51d84af00cd26b6a3d83e526ff5953d",
+        "status" : "failed",
+        "time" : {
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a51d84af00cd26b6a3d83e526ff5953d"
+    }, {
+      "name" : "expected response to have status code 400 but got 500",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _filter incorrect / Status 400",
+        "uid" : "8438b12e3a7d0bea",
+        "parentUid" : "bdc96b4d89cda02f0e673205fa0cfd8c",
+        "status" : "failed",
+        "time" : {
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Rayon <= 0km / Status 400",
+        "uid" : "f3144ba0be6b35ee",
+        "parentUid" : "bdc96b4d89cda02f0e673205fa0cfd8c",
+        "status" : "failed",
+        "time" : {
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude > 180 / Status 400",
+        "uid" : "a33da5a81afc9a83",
+        "parentUid" : "bdc96b4d89cda02f0e673205fa0cfd8c",
+        "status" : "failed",
+        "time" : {
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude < -180 / Status 400",
+        "uid" : "bdab2f10fe3ed478",
+        "parentUid" : "bdc96b4d89cda02f0e673205fa0cfd8c",
+        "status" : "failed",
+        "time" : {
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude < -90 / Status 400",
+        "uid" : "266adc02d297dcc1",
+        "parentUid" : "bdc96b4d89cda02f0e673205fa0cfd8c",
+        "status" : "failed",
+        "time" : {
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude > 90 / Status 400",
+        "uid" : "24969bb8062d6d33",
+        "parentUid" : "bdc96b4d89cda02f0e673205fa0cfd8c",
+        "status" : "failed",
+        "time" : {
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdc96b4d89cda02f0e673205fa0cfd8c"
+    }, {
+      "name" : "expected false to be true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté entre 5 et 18 ans / Plage de valeur d'âges acceptés par le HS",
+        "uid" : "1f981d5a968e7719",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic (|[code]) / Charactertic: [code]",
+        "uid" : "620d9684fcabc713",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (Plusieurs résultats) / Psychiatric-sector: plusieurs résultats",
+        "uid" : "616d379c02fd25ec",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2716
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Serice_type (|[code]) / Service-type=|[code]",
+        "uid" : "773015bdd4e336fd",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([code]) / capacity-status=[code]",
+        "uid" : "6f547fb88c328771",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 96
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category (|[code]) / Service_category=|[code]",
+        "uid" : "d01a2185b347cd1",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([system]|[code]) / capacity-status=[system]|[code]",
+        "uid" : "7694fad0bc038ad",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #1 - Données capacitaires sur le périmètre national / Intégrité _revinclude",
+        "uid" : "58425d25d1aee712",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (gt 10) / Tous les nb-capacity > à celui attendu",
+        "uid" : "ec5edc78c4e1247a",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 13761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (|[code]) / All HS contains specialty 299 with good system ([system]|[code])",
+        "uid" : "e9bedc9f78f441bb",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status (|[code]) / capacity-status=[code]",
+        "uid" : "9c56b2de3e039f5c",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (lt 10) / Tous les nb-capacity < à celui attendu",
+        "uid" : "a7d6f1bcad107fed",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (gt with result) / capacity-update-date (gt with result)",
+        "uid" : "bb26e78712ecf77d",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "duration" : 815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "81d949b8b4ac1baf44f7f368cbfa0d33"
+    }, {
+      "name" : "La resource HealthcareService (id: 26905970) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty ([system]|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "cc8e540013e0dac3",
+        "parentUid" : "b83161cdb6c3b6fae9068ba35a0b278e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (Plusieurs choix) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "1b4e95be7b755813",
+        "parentUid" : "b83161cdb6c3b6fae9068ba35a0b278e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et plusieurs types de patientèle / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "ad997d6ea364f72",
+        "parentUid" : "b83161cdb6c3b6fae9068ba35a0b278e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2960
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "57d20daff31db882",
+        "parentUid" : "b83161cdb6c3b6fae9068ba35a0b278e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "ae5cc668d2b79bad",
+        "parentUid" : "b83161cdb6c3b6fae9068ba35a0b278e",
+        "status" : "failed",
+        "time" : {
+          "duration" : 273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b83161cdb6c3b6fae9068ba35a0b278e"
+    }, {
+      "name" : "La resource Location (id: 34) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #5 - Données capacitaires d’une offre opérationnelle / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "a0274e30ec051346",
+        "parentUid" : "1f7805c521326b6c69495d8cf959781f",
+        "status" : "failed",
+        "time" : {
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1f7805c521326b6c69495d8cf959781f"
+    }, {
+      "name" : "Cannot read properties of null (reading 'forEach')",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq with résultat) / Last updated égale",
+        "uid" : "74c85e9d00de9f1a",
+        "parentUid" : "14ed536840802de95bf74c461eaff977",
+        "status" : "failed",
+        "time" : {
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated eq (>= 1 résultat) / Last updated égale",
+        "uid" : "8b5fa69f9ea81a5",
+        "parentUid" : "14ed536840802de95bf74c461eaff977",
+        "status" : "failed",
+        "time" : {
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category ([system]|) / Service_category=[system]|",
+        "uid" : "4eca8af23a343518",
+        "parentUid" : "14ed536840802de95bf74c461eaff977",
+        "status" : "failed",
+        "time" : {
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([code]) / Tag correcte",
+        "uid" : "2948c72da8007977",
+        "parentUid" : "14ed536840802de95bf74c461eaff977",
+        "status" : "failed",
+        "time" : {
+          "duration" : 1331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14ed536840802de95bf74c461eaff977"
+    }, {
+      "name" : "La resource Organization/22924799 référencée par le HealthcareService/22924800 n'a pas été chargée: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #1 - Extraction complète / Inclusion des Organization des HealthcareService",
+        "uid" : "5e1207e6883fd013",
+        "parentUid" : "332fa0c1d877b142293a8a23df0c2e96",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "332fa0c1d877b142293a8a23df0c2e96"
+    }, {
+      "name" : "La resource Location (id: 10006) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (gt with result) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "88c3a649d6745608",
+        "parentUid" : "7127ec2230f55b8d4d6d09a09971b687",
+        "status" : "failed",
+        "time" : {
+          "duration" : 815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7127ec2230f55b8d4d6d09a09971b687"
+    }, {
+      "name" : "La resource HealthcareService (id: 26906433) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "e61a90cb37df0a4d",
+        "parentUid" : "7645c58289b9f3a05001f0d2f99d7d00",
+        "status" : "failed",
+        "time" : {
+          "duration" : 454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7645c58289b9f3a05001f0d2f99d7d00"
+    }, {
+      "name" : "expected 149836 to equal 149759",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]) / Nombre de totaux identiques",
+        "uid" : "e846874a6fcf033b",
+        "parentUid" : "c7b1ca6ce9576f6c97ebf17069c4f7e7",
+        "status" : "failed",
+        "time" : {
+          "duration" : 975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7b1ca6ce9576f6c97ebf17069c4f7e7"
+    }, {
+      "name" : "La resource Location (id: 1741) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (lt with result) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "74f1b775a687585f",
+        "parentUid" : "d8266710cff20959d15b071d78aa0216",
+        "status" : "failed",
+        "time" : {
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8266710cff20959d15b071d78aa0216"
+    }, {
+      "name" : "La resource Location (id: 42) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Tous critères / _id (1 seul résultat) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "f260d38cc4f4799d",
+        "parentUid" : "832c074c114668566260537f57776df2",
+        "status" : "failed",
+        "time" : {
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "832c074c114668566260537f57776df2"
+    }, {
+      "name" : "La resource Location (id: 16) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "f01ab204d0d40a5b",
+        "parentUid" : "2b36b7b6637e192c5b53fc70d09dfbfa",
+        "status" : "failed",
+        "time" : {
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b36b7b6637e192c5b53fc70d09dfbfa"
+    }, {
+      "name" : "La resource Location (id: 224) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #8 - Extraction d’une offre de santé identifiée et ses éventuelles anomalies associées / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "f10bf123ed50a01c",
+        "parentUid" : "f80f64e67f87307cf169f0dcae6da9c5",
+        "status" : "failed",
+        "time" : {
+          "duration" : 160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #3 - Extraction d’une offre de santé identifiée / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "4da851346eb23fc9",
+        "parentUid" : "f80f64e67f87307cf169f0dcae6da9c5",
+        "status" : "failed",
+        "time" : {
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f80f64e67f87307cf169f0dcae6da9c5"
+    }, {
+      "name" : "expected +0 to equal 2",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Nombre de totaux identiques",
+        "uid" : "177c8d65bc1b3efc",
+        "parentUid" : "7f6539972cd6dc3d5a29243cdce3b1ab",
+        "status" : "failed",
+        "time" : {
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f6539972cd6dc3d5a29243cdce3b1ab"
+    }, {
+      "name" : "La resource Location (id: 2) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #1 - Données capacitaires sur le périmètre national / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "102dfe50cca034c6",
+        "parentUid" : "1d6d231577305ccf65215a5bc76f08ab",
+        "status" : "failed",
+        "time" : {
+          "duration" : 659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Revinclude HealthcareService / Location - Revinclude HealthcareService / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "eb3fd3784b4c2d34",
+        "parentUid" : "1d6d231577305ccf65215a5bc76f08ab",
+        "status" : "failed",
+        "time" : {
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d6d231577305ccf65215a5bc76f08ab"
+    }, {
+      "name" : "La resource Location (id: 150416) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #4 - Extraction complète à partir d’une date de mise à jour de l’offre opérationnelle / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "d7f2db557695376d",
+        "parentUid" : "d8f381678003314a870d8e6deb508ad7",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8f381678003314a870d8e6deb508ad7"
+    }, {
+      "name" : "expected 87 to equal 85",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]|[code]) / Nombre de totaux identiques",
+        "uid" : "b824ff867cad6093",
+        "parentUid" : "e7bae5c35497b4fab617515ae29b9a21",
+        "status" : "failed",
+        "time" : {
+          "duration" : 1428
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e7bae5c35497b4fab617515ae29b9a21"
+    }, {
+      "name" : "expected 'Une erreur interne s\\'est produite' to equal 'La longitude renseignée est hors des …'",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude < -180 / ResourceType : OperationOutcome",
+        "uid" : "f1b0f7d76acebeb8",
+        "parentUid" : "25e41e4d5fb881790524a311a3dfabfd",
+        "status" : "failed",
+        "time" : {
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude > 180 / ResourceType : OperationOutcome",
+        "uid" : "5313d001503f3473",
+        "parentUid" : "25e41e4d5fb881790524a311a3dfabfd",
+        "status" : "failed",
+        "time" : {
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25e41e4d5fb881790524a311a3dfabfd"
+    }, {
+      "name" : "La resource Location (id: 10000) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Nouveaux scénarios / Recherche/Consultation des données capacitaires / 1 - Données capacitaires sur le périmètre régional / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "95d624b2178b2a66",
+        "parentUid" : "4fb1bdd9644bd7b643f3f12bdc1c126f",
+        "status" : "failed",
+        "time" : {
+          "duration" : 836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fb1bdd9644bd7b643f3f12bdc1c126f"
+    }, {
+      "name" : "La resource Location (id: 10058) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Nouveaux scénarios / Recherche/Consultation des données capacitaires / 2 - Données capacitaires sur un lieu de prise en charge identifié / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "f4792599a91d6769",
+        "parentUid" : "8e14083b403ef39e8a34901d4fb17050",
+        "status" : "failed",
+        "time" : {
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e14083b403ef39e8a34901d4fb17050"
+    }, {
+      "name" : "Assignment to constant variable.",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / Résultat unique avec bon identifiant",
+        "uid" : "6f8020a2c0e64c30",
+        "parentUid" : "ca2d81467f739daf07137abda9607ed1",
+        "status" : "failed",
+        "time" : {
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca2d81467f739daf07137abda9607ed1"
+    }, {
+      "name" : "La resource Location (id: 158234) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #1 - Extraction complète / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "c55c7d0ab30b3ee2",
+        "parentUid" : "03f4e163433351031e68963a7844f4f9",
+        "status" : "failed",
+        "time" : {
+          "duration" : 2969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03f4e163433351031e68963a7844f4f9"
+    }, {
+      "name" : "La resource Location (id: 10054) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (lt with résultat) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "6ec614ddd177cb47",
+        "parentUid" : "ee4d94392679cec0c0291c6c2db6bd91",
+        "status" : "failed",
+        "time" : {
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee4d94392679cec0c0291c6c2db6bd91"
+    }, {
+      "name" : "expected 'La distance renseignée est hors des b…' to equal 'La distance renseignée est hors des b…'",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Rayon > 1000km / ResourceType : OperationOutcome",
+        "uid" : "c8f82bd3c7c51ea6",
+        "parentUid" : "6923efe83759d8de7f954833295e9225",
+        "status" : "failed",
+        "time" : {
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6923efe83759d8de7f954833295e9225"
+    }, {
+      "name" : "Le champ entry n'est pas défini. Impossible de parcourir les résultats: expected undefined to not equal undefined",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Intégrité _revinclude",
+        "uid" : "58f88ecbeca49cd0",
+        "parentUid" : "769ca79e101ebd61c476cef5e59ceab2",
+        "status" : "failed",
+        "time" : {
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Résultats avec bon identifiants",
+        "uid" : "d7171c87d8f42526",
+        "parentUid" : "769ca79e101ebd61c476cef5e59ceab2",
+        "status" : "failed",
+        "time" : {
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "769ca79e101ebd61c476cef5e59ceab2"
+    }, {
+      "name" : "La resource Location (id: 10) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #4 - Données capacitaires à partir d’une date de mise à jour / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "b50e814a34154f7b",
+        "parentUid" : "0e8340fd14045cea83337ed77dc19b23",
+        "status" : "failed",
+        "time" : {
+          "duration" : 460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (gt with résultat) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "5cc68a15af67fef7",
+        "parentUid" : "0e8340fd14045cea83337ed77dc19b23",
+        "status" : "failed",
+        "time" : {
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e8340fd14045cea83337ed77dc19b23"
+    }, {
+      "name" : "La resource Location (id: 10023) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (eq 10) / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "468e45b03c3fb2e8",
+        "parentUid" : "38de2f0b3ec5981ed72eb8d59ffbc38d",
+        "status" : "failed",
+        "time" : {
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38de2f0b3ec5981ed72eb8d59ffbc38d"
+    }, {
+      "name" : "La resource Organization (id: 25378656) a une structure non conforme à l'IG.: expected false to equal true",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par name et sur organization:name:above / Toutes les resources possèdent leurs champs obligatoires",
+        "uid" : "f8fa2616df9e826b",
+        "parentUid" : "b467a4763a4fa8602a0cb145007d8558",
+        "status" : "failed",
+        "time" : {
+          "duration" : 181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b467a4763a4fa8602a0cb145007d8558"
+    }, {
+      "name" : "expected +0 to equal 1",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq with résultat) / Nombre de totaux identiques",
+        "uid" : "207a41bcde2773a0",
+        "parentUid" : "ee0a0f34fd4d6301022adbaba05f8669",
+        "status" : "failed",
+        "time" : {
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee0a0f34fd4d6301022adbaba05f8669"
+    }, {
+      "name" : "expected 'Une erreur interne s\\'est produite' to equal 'La distance renseignée est hors des b…'",
+      "children" : [ {
+        "name" : "ws-diffusion-fhir / HealthcareService - Near / Rayon <= 0km / ResourceType : OperationOutcome",
+        "uid" : "f6cd8c2fcd1b0645",
+        "parentUid" : "2f46f68dbd4dd2a04f604984484015b7",
+        "status" : "failed",
+        "time" : {
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f46f68dbd4dd2a04f604984484015b7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

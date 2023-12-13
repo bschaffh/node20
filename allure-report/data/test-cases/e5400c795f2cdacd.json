@@ -1,0 +1,39 @@
+{
+  "uid" : "e5400c795f2cdacd",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #7 - Extraction partielle de l’offre sur un périmètre limité / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 186
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5400c795f2cdacd.json",
+  "parameterValues" : [ ]
+}

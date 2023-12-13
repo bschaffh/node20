@@ -1,0 +1,39 @@
+{
+  "uid" : "25cd4cc2da60a86f",
+  "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (Plusieurs résultats) / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 2716
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25cd4cc2da60a86f.json",
+  "parameterValues" : [ ]
+}

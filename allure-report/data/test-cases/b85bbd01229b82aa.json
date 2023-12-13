@@ -1,0 +1,39 @@
+{
+  "uid" : "b85bbd01229b82aa",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #5 - Extraction complète à partir d’une date de mise à jour de l’entité géographique / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 21
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b85bbd01229b82aa.json",
+  "parameterValues" : [ ]
+}

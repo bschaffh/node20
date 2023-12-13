@@ -1,0 +1,45 @@
+{
+  "uid" : "88c3a649d6745608",
+  "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (gt with result) / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 815
+  },
+  "status" : "failed",
+  "statusMessage" : "La resource Location (id: 10006) a une structure non conforme à l'IG.: expected false to equal true",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / Location - Capacity / capacity-update-date (gt with result).\n        Test description: Toutes les resources possèdent leurs champs obligatoires.\n        Error message: La resource Location (id: 10006) a une structure non conforme à l'IG.: expected false to equal true.\n        Stacktrace: AssertionError: La resource Location (id: 10006) a une structure non conforme à l'IG.: expected false to equal true\n   at Object.eval sandbox-script.js:1:79).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "88c3a649d6745608.json",
+  "parameterValues" : [ ]
+}

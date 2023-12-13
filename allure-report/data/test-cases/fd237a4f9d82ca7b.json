@@ -1,0 +1,39 @@
+{
+  "uid" : "fd237a4f9d82ca7b",
+  "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #6 - Extraction complète à partir d’une date de mise à jour d’un des éléments de l’offre / Toutes les resources possèdent leurs champs obligatoires",
+  "time" : {
+    "duration" : 29
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd237a4f9d82ca7b.json",
+  "parameterValues" : [ ]
+}

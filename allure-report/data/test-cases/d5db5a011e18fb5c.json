@@ -1,0 +1,39 @@
+{
+  "uid" : "d5db5a011e18fb5c",
+  "name" : "ws-diffusion-fhir / Location - Revinclude HealthcareService / Location - Revinclude HealthcareService / revinclude HealthcareService:location correct",
+  "time" : {
+    "duration" : 166
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5db5a011e18fb5c.json",
+  "parameterValues" : [ ]
+}

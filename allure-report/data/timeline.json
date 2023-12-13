@@ -1,5 +1,3646 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Rercherche par name, sans _include / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "3a3cdf4f94fd2bfe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1449
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq with résultat) / Status 200",
+    "uid" : "1eb80b292647b458",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (0 résultats) / Status 200",
+    "uid" : "338c357bc2bd9b92",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (eq with result) / Status 200",
+    "uid" : "60faa1c797f0ae1c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service-category ([code]) / Status 200",
+    "uid" : "3659c556b2cb8075",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 358
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([system]|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "60e3c3249b35d7de",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 892
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (lt with result) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "74f1b775a687585f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 44
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté entre 5 et 18 ans / Status 200",
+    "uid" : "895154544e09eed4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated eq (>= 1 résultat) / Last updated égale",
+    "uid" : "8b5fa69f9ea81a5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 52
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Aucun résultat / Nombre de totaux identiques",
+    "uid" : "52cc2138d3d6e55d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté <= 18 ans / Status 200",
+    "uid" : "40248a46d3991118",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Id existe pas (0 résultat) / Status 200",
+    "uid" : "18d811509628aa02",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Rercherche par organization:name:above / Filtre par organization:name:above",
+    "uid" : "aa143b63389e3d68",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par _filter, sans _include / Status 200",
+    "uid" : "43b55b173b5d7265",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1378
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté non cohérent / Status 400",
+    "uid" : "390be7b3551d0415",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (it no résultat) / Status 200",
+    "uid" : "195ae790d868adbd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #4 - Données capacitaires à partir d’une date de mise à jour / Status 200",
+    "uid" : "eadf8aba01ea26bb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 460
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #5 - Données capacitaires d’une offre opérationnelle / Intégrité _revinclude",
+    "uid" : "a3b813355a4c981d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 35
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]) / Nombre de totaux identiques",
+    "uid" : "e846874a6fcf033b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 975
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté >= 5 ans / Nombre de totaux identiques",
+    "uid" : "7475ec5b106ae675",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Identifier existe (0 résultat) / Status 200",
+    "uid" : "7b34cbbcd4eea83b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté avec deux unités différentes / Status 400",
+    "uid" : "4ca03ef61f09c540",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude < -90 / ResourceType : OperationOutcome",
+    "uid" : "1f0d841857d5d5f7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Aucun résultat / Status 200",
+    "uid" : "bc1ab448ddde691f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par _filter sur organization:name:above / Status 200",
+    "uid" : "2182d641447fa061",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 340
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([system]|[code]) / Charactertic: [code]",
+    "uid" : "5bf8eb66d1a1453e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 892
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Id existe (1 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "2f67a2e5d64f03f8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 201
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_type ([system]|[code]) / Status 200",
+    "uid" : "eaa412de0ac779ed",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status (|[code]) / capacity-status=[code]",
+    "uid" : "9c56b2de3e039f5c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 97
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par name et sur organization:name:above / Filtre par organization:name:above",
+    "uid" : "5bcb6a904d9c48dc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 181
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _filter incorrect / ResourceType : OperationOutcome",
+    "uid" : "fa4bde3b6373ca0a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]|[code]) / Status 200",
+    "uid" : "b318dbb274f81b14",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1428
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Rercherche par name, sans _include / Status 200",
+    "uid" : "9b18e0a4987b4dc3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1449
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Nouveaux scénarios / Recherche/Consultation des données capacitaires / 1 - Données capacitaires sur le périmètre régional / Status 200",
+    "uid" : "ccc8c49346a91588",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 836
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude > 90 / Status 400",
+    "uid" : "24969bb8062d6d33",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq no résultat) / Status 200",
+    "uid" : "ca03b05497ed46d3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag not existe, system and code(0 résultat) / Nombre de totaux identiques",
+    "uid" : "b6f80d40adeca698",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated gt (0 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "4bd1de535df97456",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Aucun résultat / Nombre de totaux identiques",
+    "uid" : "ea48c29b41530b07",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude < -180 / Status 400",
+    "uid" : "bdab2f10fe3ed478",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (gt 10) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "90a823c4ffb7b2b8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 13761
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Revinclude HealthcareService / Location - Revinclude HealthcareService / revinclude HealthcareService:location correct",
+    "uid" : "d5db5a011e18fb5c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Status 200",
+    "uid" : "718934392724ce61",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / _id (1 seul résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "f260d38cc4f4799d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([system]|) / Status 200",
+    "uid" : "cda271dfd0efff43",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 362
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / Status 200",
+    "uid" : "6fca807eedcf0b89",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 36
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / _count=0 / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "22e121d0b504706f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2569
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated eq (>= 1 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "a21a5ae90d8ae450",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 52
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (Plusieurs résultats) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "25cd4cc2da60a86f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2716
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "df1b923d1d5841ff",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 408
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #1 - Données capacitaires sur le périmètre national / Status 200",
+    "uid" : "ec36b4abd82b2bd7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 659
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated eq (0 résultat) / Nombre de totaux identiques",
+    "uid" : "13285443d9d29cbd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté >= 5 ans / Type de patientèle",
+    "uid" : "aac2784274305a91",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Aucun résultat / Status 200",
+    "uid" : "d8b167d2fc5234e3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated gt (>= 1 résultat) Copy / Last updated supérieur",
+    "uid" : "6e5b4d5546e0f525",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 249
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated gt (0 résultat) / Status 200",
+    "uid" : "d3cb2511d86e3cc4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté >= 5 ans / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "eaff10c7276cbf74",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #5 - Données capacitaires d’une offre opérationnelle / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "a0274e30ec051346",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 35
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (gt no résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "9d6cefa4402b1319",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Identifier existe (>= 1 résultat) / Identifier correcte",
+    "uid" : "e425bc54ce28fcfe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 155
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / _id (1 seul résultat) / Status 200",
+    "uid" : "ad6ac132383716d9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence ([system|code]) / Status 200",
+    "uid" : "bc900c87a56e2e22",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 393
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "35bba6a8d0efc09",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 96
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_type (Plusieurs choix) / Service-type=[system]|[code] (plusieurs choix)",
+    "uid" : "7c1dc30aca3f4d37",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1843
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / resourceType Bundle et Type SearchSet",
+    "uid" : "8dc914ed0bb881b2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]|[code]) / Tag correcte",
+    "uid" : "8483679b25ecbf0a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1428
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence ([system|code]) / Specific-competence [code] : résulats cohérents",
+    "uid" : "4665631398d8440a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 393
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq with résultat) / Last updated égale",
+    "uid" : "74c85e9d00de9f1a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq no résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "a90c485e9a4b6ef8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence (Plusieurs choix) / Status 200",
+    "uid" : "13c43734fef7ad32",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 663
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier (with result) / Identifier (with result)",
+    "uid" : "cd6a16861046a5d1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et type de patientèle unique / Nombre de totaux identiques",
+    "uid" : "4c3564c3837a50dc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2626
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service-type ([code]) / Service-type=[code]",
+    "uid" : "1c1277375bed82a6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1781
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude < -180 / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "9bf9c9a0f81e6f5d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic (|[code]) / Charactertic: [code]",
+    "uid" : "620d9684fcabc713",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 454
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / _id (1 seul résultat) / Unicité id Location",
+    "uid" : "c2ee54981ee12e29",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #1 - Données capacitaires sur le périmètre national / resourceType Bundle et Type SearchSet",
+    "uid" : "a3ccfabd84e907ac",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 659
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté >= 5 ans / Status 200",
+    "uid" : "865c680b49b22f30",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #1 - Extraction complète / Inclusion des Organization des HealthcareService",
+    "uid" : "5e1207e6883fd013",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2969
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté entre 5 et 18 ans / Plage de valeur d'âges acceptés par le HS",
+    "uid" : "1f981d5a968e7719",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #5 - Extraction complète à partir d’une date de mise à jour de l’entité géographique / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "b85bbd01229b82aa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence ([code]) / Specific-competence [code] : résulats cohérents",
+    "uid" : "86c0256a929df448",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 408
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Rercherche par name, sans _include / Résultats seulement avec nom recherché",
+    "uid" : "d3bc055e39a13ac2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1449
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service-category ([code]) / Service_category=[code]",
+    "uid" : "ec1f07c1ad880c34",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 358
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (gt with résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "5cc68a15af67fef7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 66
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier:of-type (no result) / Status 200",
+    "uid" : "9596e072e212c3f0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "636b998aba97dd93",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (lt with résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "6ec614ddd177cb47",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 58
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated lt (0 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "be8f4c958ccb5c55",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier (with result) / Status 200",
+    "uid" : "7fe1f2de8a818fd7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (gt with result) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "88c3a649d6745608",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 815
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (gt with result) / capacity-update-date (gt with result)",
+    "uid" : "bb26e78712ecf77d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 815
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Identifier existe (>= 1 résultat) / Nombre de totaux identiques",
+    "uid" : "f358246b648fbbe2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 155
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_type ([system]|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "344a7578676b13b3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category ([system]|) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "5b4ea7f0ef09bffd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty ([system]|[code]) / Status 200",
+    "uid" : "508d3881c7749089",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Unité de rayon non définie / ResourceType : OperationOutcome",
+    "uid" : "a2583cfaeaf12b3b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier:of-type (no result) / Nombre de totaux identiques",
+    "uid" : "16eaf58fe746a2ef",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier (with result) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "7e755e1609e478ad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "ae5cc668d2b79bad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 273
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #2 - Extraction de l’ensemble des offres de santé d’un établissement / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "a407154ef837a0e0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #7 - Recherche sur une zone d’intervention / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "2dea5a9c0d4b62f7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Location cohérente / Status 200",
+    "uid" : "b2eb7ba2f1907e5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #6 - Extraction complète à partir d’une date de mise à jour d’un des éléments de l’offre / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "fd237a4f9d82ca7b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_type ([system]|) (A FAIRE) / Status 200",
+    "uid" : "87d4fb77d5d92eea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 33
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (gt with résultat) / Status 200",
+    "uid" : "5bae00843a7c52db",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 66
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Revinclude HealthcareService / Location - Revinclude HealthcareService / Status 200",
+    "uid" : "2171fdb9d3f0523f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence (Plusieurs choix) / Specific-competence [code] : résulats cohérents",
+    "uid" : "7ed3739e36bd342e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 663
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category (Plusieurs choix) / Status 200",
+    "uid" : "197d862bd23ba0a9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 707
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / _count=0 / Status 200",
+    "uid" : "9d30996932ea85bb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2569
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "4c10d24deada975d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier (no result) / Status 200",
+    "uid" : "67da8eb2d106910d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #1 - Extraction complète / resourceType Bundle et Type SearchSet",
+    "uid" : "305fc29ebbcea5f5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2969
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated lt (>= 1 résultat) Copy / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "450a82a89c133c48",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 259
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #5 - Données capacitaires d’une offre opérationnelle / resourceType Bundle et Type SearchSet",
+    "uid" : "37e326f4b0b6db1f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 35
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre avec données capacitaires / #1 - Recherche sur un critère capacitaire #1 / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "6690780ca54937ee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Unité de rayon non définie / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "cf10f86f7b648bc0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (it no résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "f68e75e5b64a0e09",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Rercherche par organization:name:above / Status 200",
+    "uid" : "211c979740015c80",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Id existe (1 résultat) / Status 200",
+    "uid" : "e13e536efc7aa7d6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 201
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et type de patientèle unique / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "3172654bacce461a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2626
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (lt 10) / Tous les nb-capacity < à celui attendu",
+    "uid" : "a7d6f1bcad107fed",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 232
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (lt with result) / capacity-update-date (eq with result)",
+    "uid" : "a528626eaa110919",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 44
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #8 - Recherche sur un département / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "be599f5b2f149e22",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / _count=10 / Entry de taille 10",
+    "uid" : "150766b679c67479",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 507
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et type de patientèle unique / Type de patientèle",
+    "uid" : "271008380c9b364d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2626
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated eq (>= 1 résultat) / Status 200",
+    "uid" : "3361fcd1970008fe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 52
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_type (Plusieurs choix) / Status 200",
+    "uid" : "9700cea0ad624037",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1843
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated lt (0 résultat) / Status 200",
+    "uid" : "f6bbb820721b6810",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]|[code]) / Nombre de totaux identiques",
+    "uid" : "b824ff867cad6093",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 1428
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (Paramètre au format invalide) / ResourceType : OperationOutcome",
+    "uid" : "686bbb7d5d441b00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([system]|) / Charactertic: [code]",
+    "uid" : "ad46f060d8c69bea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 362
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #11 - Recherche sur un critère du modèle d’exposition 3.0 du ROR / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "f778680f612a706",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "33f8dbc686ccbe51",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 97
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté entre 5 et 18 ans / Type de patientèle",
+    "uid" : "947f0b8fa83e553",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et plusieurs types de patientèle / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "ad997d6ea364f72",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2960
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude < -90 / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "98bccedd6308f0e2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (0 résultats) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "9841a561acf5fb99",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (Plusieurs choix) / Status 200",
+    "uid" : "9da6963a4a409071",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 429
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (eq 10) / Tous les nb-capacity < à celui attendu",
+    "uid" : "ef57c0c1e854b3aa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 304
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _include incorrect / Nombre de résultats indentiques",
+    "uid" : "6e489e2bdc7a1a49",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2478
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated gt (>= 1 résultat) Copy / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "ba0554767497ae09",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 249
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Unité de rayon non définie / Status 400",
+    "uid" : "6ab2acc93cd5305a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service-type ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "c4b04e2ef8689e5f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1781
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Résultats avec bon identifiants",
+    "uid" : "d7171c87d8f42526",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_type (Plusieurs choix) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "872d7e3fdeebb216",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1843
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category (|[code]) / Service_category=|[code]",
+    "uid" : "d01a2185b347cd1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 527
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (Plusieurs choix) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "1b4e95be7b755813",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 429
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté non cohérent / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "6d8c09ab063c7bd4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([system]|[code]) / Status 200",
+    "uid" : "fd84653f5e46f1e4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 75
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / resourceType Bundle et Type SearchSet",
+    "uid" : "e56757e4dce1b97c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 36
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par name et sur organization:name:above / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "f8fa2616df9e826b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 181
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category ([system]|[code]) / Status 200",
+    "uid" : "2b75f85cbf310946",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude > 90 / ResourceType : OperationOutcome",
+    "uid" : "5d29385e673d868c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #2 - Recherche sur un critère en saisissant une liste de valeur / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "2f4054613910556b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude > 180 / ResourceType : OperationOutcome",
+    "uid" : "5313d001503f3473",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier:of-type (with result) Copy / Identifier:of-type (with result)",
+    "uid" : "cec974a3a3a53287",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 37
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / _id (1 seul résultat) / Nombre de totaux identiques",
+    "uid" : "6861d044338d4c07",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 38
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated lt (>= 1 résultat) Copy / Last updated inférieur",
+    "uid" : "fa5f9645f8dd52f8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 259
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Rayon > 1000km / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "c17e4e4fdaea94f4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Serice_type (|[code]) / Status 200",
+    "uid" : "6924b1ef51c70541",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 221
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _include incorrect / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "13ebe18f63fdae89",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2478
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté <= 18 ans / Type de patientèle",
+    "uid" : "35e70679bd3e8342",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "53ac5623d7066c88",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 975
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([code]) / Status 200",
+    "uid" : "afef16c6d73e3a28",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 96
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Rayon <= 0km / ResourceType : OperationOutcome",
+    "uid" : "f6cd8c2fcd1b0645",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude < -180 / ResourceType : OperationOutcome",
+    "uid" : "f1b0f7d76acebeb8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Serice_type (|[code]) / Service-type=|[code]",
+    "uid" : "773015bdd4e336fd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 221
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Identifier existe (>= 1 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "245d82c28f33ec16",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 155
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (Paramètre au format invalide) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "e6a8c16ba9faafb4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par _filter sur organization:name:above / Filtre par organization:name:above",
+    "uid" : "66e48576fd1418be",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 340
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Aucun résultat / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "d91204febdaf8ef",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (it no résultat) / Nombre de totaux identiques",
+    "uid" : "adb796442ddcc6ba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Intégrité _revinclude",
+    "uid" : "58f88ecbeca49cd0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #1 - Extraction complète / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "c55c7d0ab30b3ee2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2969
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Nouveaux scénarios / Recherche/Consultation des données capacitaires / 2 - Données capacitaires sur un lieu de prise en charge identifié / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "f4792599a91d6769",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 33
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty ([code]) / Status 200",
+    "uid" : "cdfdf30282101629",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 349
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (Plusieurs choix) / All HS contains specialty 299 with good system ([system]|[code])",
+    "uid" : "ee781ee53687954b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 429
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #1 - Extraction complète / Inclusion des Location des HealthcareService",
+    "uid" : "642d421f8f965a45",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2969
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Id existe pas (0 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "dc05b59d11537ce8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier:of-type (no result) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "b6026f6f8ae49537",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Location cohérente / Location correcte",
+    "uid" : "78c7bc533255afd0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq with résultat) / Nombre de totaux identiques",
+    "uid" : "207a41bcde2773a0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq with résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "fecde8da642c657f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "37ff59d3e7574504",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category (Plusieurs choix) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "60fef7f4ce8b8fb7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 707
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([code]) / Status 200",
+    "uid" : "e4356266355d08ce",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "9c62274aa13d644a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 527
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (Plusieurs résultats) / Status 200",
+    "uid" : "59d4376c8833ffa7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2716
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / _id (0 résultat) / Nombre de totaux identiques",
+    "uid" : "8630cca8080e1ae5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier (no result) / Nombre de totaux identiques",
+    "uid" : "3d6a0cd9684bd825",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category ([system]|[code]) / Service_category=[system]|[code]",
+    "uid" : "3c7e41e3529abaf0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (|[code]) / All HS contains specialty 299 with good system ([system]|[code])",
+    "uid" : "e9bedc9f78f441bb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 273
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (|[system]) / Status 200",
+    "uid" : "eb0abd0f12b213dc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude < -90 / Status 400",
+    "uid" : "266adc02d297dcc1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty ([code]) / All HS contains specialty 299 ([code])",
+    "uid" : "9db113a8265b6bd2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 349
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (gt 10) / Tous les nb-capacity > à celui attendu",
+    "uid" : "ec5edc78c4e1247a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 13761
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Id existe (1 résultat) / Id correcte",
+    "uid" : "e17359356bd2cf84",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 201
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / _count=0 / Tableau Entry non présent",
+    "uid" : "93f834fee9979fee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2569
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (|[code]) / Status 200",
+    "uid" : "cf3ddc83e62a6e05",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 273
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Rercherche par name, sans _include / Toutes structures OK",
+    "uid" : "a7f5cb9740077807",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1449
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / Résultat unique avec bon identifiant",
+    "uid" : "6f8020a2c0e64c30",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 36
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Id existe pas (0 résultat) / Nombre de totaux identiques",
+    "uid" : "6379bf9e9be8d37",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Identifier existe (0 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "25034479c5f9726",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté <= 18 ans / Nombre de totaux identiques",
+    "uid" : "d7e914f8e696bed",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Revinclude HealthcareService / Location - Revinclude HealthcareService / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "eb3fd3784b4c2d34",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté avec deux unités différentes / ResourceType : OperationOutcome",
+    "uid" : "b56ecb0910acc9d0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Latitude > 90 / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "b34f0e209f00c5cc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([system]|[code]) / capacity-status=[system]|[code]",
+    "uid" : "7694fad0bc038ad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 75
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (gt with result) / Status 200",
+    "uid" : "538d58f3441d40bb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 815
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (eq with result) / capacity-update-date (eq with result)",
+    "uid" : "4587a53713bb590e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / _count=10 / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "e260df66185ced18",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 507
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté entre 5 et 18 ans / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "acbf3b5e10d3523",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([code]) / Tag correcte",
+    "uid" : "2948c72da8007977",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 1331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (gt no résultat) / Status 200",
+    "uid" : "42177e5636ea6e25",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "e61a90cb37df0a4d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 454
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #1 - Extraction complète / Status 200",
+    "uid" : "85c6bbb91196e51f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2969
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #1 - Données capacitaires sur le périmètre national / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "102dfe50cca034c6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 659
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #5 - Données capacitaires d’une offre opérationnelle / Status 200",
+    "uid" : "d071f5e711f0ca54",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 35
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Identifier existe (0 résultat) / Nombre de totaux identiques",
+    "uid" : "9eef16960be891bf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category (|[code]) / Status 200",
+    "uid" : "5b5727a94212dd0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 527
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category ([system]|) / Status 200",
+    "uid" : "1a06225fc1100069",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #1 - Données capacitaires sur le périmètre national / Intégrité _revinclude",
+    "uid" : "58425d25d1aee712",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 659
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #4 - Données capacitaires à partir d’une date de mise à jour / Intégrité _revinclude",
+    "uid" : "c60074737772bc2c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 460
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]) / Status 200",
+    "uid" : "59481890b60dd140",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 975
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté avec deux unités différentes / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "1820074a7fd29ade",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([code]) / Charactertic: [code]",
+    "uid" : "c0361878431bff57",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par _filter sur organization:name:above / Nombre de résultats indentiques",
+    "uid" : "c55a09bef5483ed4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 340
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par name et sur organization:name:above / Résultats seulement avec nom recherché",
+    "uid" : "dd2a00511aaa3a27",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 181
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Serice_type (|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "8e1eb91a4e89c27c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 221
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence ([code]) / Status 200",
+    "uid" : "a4c8eb5b3ee098e6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 408
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Rayon > 1000km / Status 400",
+    "uid" : "5bb043e0257bcfea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Rayon <= 0km / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "cb922115411a5629",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #3 - Extraction d’une offre de santé identifiée / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "4da851346eb23fc9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 149
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier:of-type (with result) Copy / Status 200",
+    "uid" : "9a6ac0c8284fb742",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 37
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / Intégrité _revinclude",
+    "uid" : "48eb8a5e193d0408",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 36
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([system]|) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "cfe3f1906ce0bc8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 362
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag not existe, system and code(0 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "443670429e3959b7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (|[system]) / All HS contains specialty 299 with good system ([system]|[code])",
+    "uid" : "8fec0e33c71eed6b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Rayon > 1000km / ResourceType : OperationOutcome",
+    "uid" : "c8f82bd3c7c51ea6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (eq 10) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "468e45b03c3fb2e8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 304
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (gt with résultat) / Last updated supérieur",
+    "uid" : "b14fe7022a841f23",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 66
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (eq with result) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "4fc57d882026ae09",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]) / Tag correcte",
+    "uid" : "2d871e56d23951c1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 975
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _include incorrect / Status 200",
+    "uid" : "df7ca12c451dd5d6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2478
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "57d20daff31db882",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 349
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #4 - Données capacitaires à partir d’une date de mise à jour / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "b50e814a34154f7b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 460
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par _filter, sans _include / Résultats seulement avec nom recherché",
+    "uid" : "fc88fb9567cf1dcc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1378
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #3 - Recherche multicritères - ET / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "4e901248eea5f9aa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #12 - Recherche d’offre en anomalie sur une région avec un statut à traiter ou à vérifier / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "cfc95fa925d38a60",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 189
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et plusieurs types de patientèle / Type de patientèle",
+    "uid" : "fb0a74480152a45",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2960
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #4 - Recherche multicritères - OU / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "4733c78122659ebf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated lt (0 résultat) / Nombre de totaux identiques",
+    "uid" : "1051a8aa7d932eb9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (0 résultats) / Nombre de totaux identiques",
+    "uid" : "c0e7feb8b6f99ec4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier:of-type (with result) Copy / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "482b8b1879d197c3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 37
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty ([system]|[code]) / All HS contains specialty 299 with good system ([system]|[code])",
+    "uid" : "2d53a483e9012cc6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude > 180 / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "3e1711ddbcbd29a7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Rayon <= 0km / Status 400",
+    "uid" : "f3144ba0be6b35ee",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "f01ab204d0d40a5b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 36
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #5 - Données capacitaires d’une offre opérationnelle / Reverse chaining avec _has",
+    "uid" : "4eb75add2854dc40",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 35
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty ([system]|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "cc8e540013e0dac3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _filter incorrect / Status 400",
+    "uid" : "8438b12e3a7d0bea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Paramètre de recherche _filter incorrect / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "f9c791d601cf001c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated gt (0 résultat) / Nombre de totaux identiques",
+    "uid" : "b5bc96e4fddca1c2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / _id (0 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "d7c976c742466409",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category ([system]|) / Service_category=[system]|",
+    "uid" : "4eca8af23a343518",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par _filter, sans _include / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "8cf307e350f435dc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1378
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / _count=10 / Status 200",
+    "uid" : "3dfd4698a28f85e0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 507
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #1 - Recherche sur un critère en saisissant une valeur / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "55bcddb692e600b3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service-type ([code]) / Status 200",
+    "uid" : "47c3f7568d08ad2e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1781
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence ([system|code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "c42e53ca320ef787",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 393
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status (|[code]) / Status 200",
+    "uid" : "8c9325cfee95951c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 97
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (lt with résultat) / Last updated inférieur",
+    "uid" : "fdda2edce8c1ba10",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 58
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_type ([system]|) (A FAIRE) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "8e37f90cbeddf360",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 33
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag not existe, system and code(0 résultat) / Status 200",
+    "uid" : "332cca33844dcf12",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 173
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #4 - Données capacitaires à partir d’une date de mise à jour / Résultats avec bon champ _lastUpdated",
+    "uid" : "b6d268d98567f0ef",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 460
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated lt (>= 1 résultat) Copy / Status 200",
+    "uid" : "c9afe7db29c0fde2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 259
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (lt with résultat) / Status 200",
+    "uid" : "f9482414364758d3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 58
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté <= 18 ans / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "2ca685c010c5a7ed",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté >= 5 ans / Plage de valeur d'âges acceptés par le HS",
+    "uid" : "50e6850a6e21a3d9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (gt no résultat) / Nombre de totaux identiques",
+    "uid" : "e52ee71419a8e96e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #6 - Recherche à proximité géographique / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "c6ab0ddf51524d2a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par name et sur organization:name:above / Status 200",
+    "uid" : "3aa551ba59ca1849",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 181
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (Plusieurs résultats) / Psychiatric-sector: plusieurs résultats",
+    "uid" : "616d379c02fd25ec",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2716
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Nouveaux scénarios / Recherche/Consultation des données capacitaires / 1 - Données capacitaires sur le périmètre régional / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "95d624b2178b2a66",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 836
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_type ([system]|[code]) / Service_type=[system]|[code]",
+    "uid" : "ba0fe22f1346b7de",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 303
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Identifier existe (>= 1 résultat) / Status 200",
+    "uid" : "b6e80bb77ce09e87",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 155
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (eq 10) / Status 200",
+    "uid" : "e921ad609358d2af",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 304
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Recherche par _filter sur organization:name:above / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "38b146e8a3c5b087",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 340
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service-category ([code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "aa0ce1189d42cb7c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 358
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté <= 18 ans / Plage de valeur d'âges acceptés par le HS",
+    "uid" : "4dd8e1a96726fd8b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #4 - Extraction complète à partir d’une date de mise à jour de l’offre opérationnelle / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "d7f2db557695376d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 2628
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specific-competence (Plusieurs choix) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "b2ed66a160f25d28",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 663
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / _id (0 résultat) / Status 200",
+    "uid" : "ef22c8e67c942e41",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 32
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Tous critères / identifier (no result) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "a37ab8e38d348bf2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 24
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / last_updated (eq no résultat) / Nombre de totaux identiques",
+    "uid" : "12c2819a73ea38e6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated eq (0 résultat) / Status 200",
+    "uid" : "fa3e1101d459e9ac",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic (|[code]) / Status 200",
+    "uid" : "ce6dd6f766914f9e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 454
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Psychiatric-sector (Paramètre au format invalide) / Status 400",
+    "uid" : "8e846e702b98c5e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (gt 10) / Status 200",
+    "uid" : "ef11f19b7e5221c4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 13761
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (lt 10) / Status 200",
+    "uid" : "410c32a821222647",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 232
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([code]) / Status 200",
+    "uid" : "47cc67aec9ec3bb2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 364
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Characteristic ([system]|[code]) / Status 200",
+    "uid" : "17c5b854788a6b82",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 892
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / nb-capacity (lt 10) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "2fb99a0c30115637",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 232
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Aucun résultat / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "a4aa966dd3c03263",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated eq (0 résultat) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "fe3c83303ea87e2b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 26
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Specialty (|[system]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "199e8b299355054b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 27
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Name / Rercherche par organization:name:above / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "9bd33f088a07fcaa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et type de patientèle unique / Status 200",
+    "uid" : "bc02b723ed155c2e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2626
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #2 - Données capacitaires sur un lieu de prise en charge identifié / Nombre de totaux identiques",
+    "uid" : "5496118f1adaed8d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 36
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #8 - Extraction d’une offre de santé identifiée et ses éventuelles anomalies associées / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "f10bf123ed50a01c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 160
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([system]|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "ab1d6c5545e4fd71",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 75
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #4 - Données capacitaires à partir d’une date de mise à jour / resourceType Bundle et Type SearchSet",
+    "uid" : "2d4ec6e1dccf7e79",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 460
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated eq (>= 1 résultat) / Nombre de totaux identiques",
+    "uid" : "2f9d28b1a0b1351d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 52
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #9 - Recherche sur une ville - Code Postal / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "ec0988c5d0ceb765",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-status ([code]) / capacity-status=[code]",
+    "uid" : "6f547fb88c328771",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 96
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #10 - Recherche sur une ville - Code commune / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "a80a7609bd0e8851",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 23
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Id existe (1 résultat) / Nombre de totaux identiques",
+    "uid" : "a314ae46a7280b07",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 201
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation des données capacitaires / #3 - Données capacitaires sur plusieurs lieux de prise en charge identifiés / Nombre de totaux identiques",
+    "uid" : "177c8d65bc1b3efc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category (Plusieurs choix) / Service_category=[system]|[code] (plusieurs choix)",
+    "uid" : "d9b6a562731668bc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 707
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([system]|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "8f663831f7c7381d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1428
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Location cohérente / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "5bcb06f5d2836df7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Recherche d'offre sur critères principaux / #5 - Recherche multicritère - ET/OU / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "6723381dc3eb2bb3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 25
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Tag ([code]) / Nombre de totaux identiques",
+    "uid" : "df5c0fe38cfecc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 1331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Scénarios / Consultation de l'offre (extraction) / #7 - Extraction partielle de l’offre sur un périmètre limité / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "e5400c795f2cdacd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 186
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / Location - Capacity / capacity-update-date (lt with result) / Status 200",
+    "uid" : "fe09ff74424dad4b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 44
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Service_category ([system]|[code]) / Toutes les resources possèdent leurs champs obligatoires",
+    "uid" : "9d4b21d6871f62aa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 317
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Age accepté non cohérent / ResourceType : OperationOutcome",
+    "uid" : "34936c340472b839",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 22
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated gt (>= 1 résultat) Copy / Status 200",
+    "uid" : "14a6d0812f95c6e8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 249
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Patientele / Pas d'âge précisé et plusieurs types de patientèle / Status 200",
+    "uid" : "53dac4280bb06888",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "duration" : 2960
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ws-diffusion-fhir / HealthcareService - Near / Longitude > 180 / Status 400",
+    "uid" : "a33da5a81afc9a83",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "duration" : 28
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
 }

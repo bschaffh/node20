@@ -1,0 +1,45 @@
+{
+  "uid" : "773015bdd4e336fd",
+  "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Serice_type (|[code]) / Service-type=|[code]",
+  "time" : {
+    "duration" : 221
+  },
+  "status" : "failed",
+  "statusMessage" : "expected false to be true",
+  "statusTrace" : "\n        Failed 1 times.\n        Collection JSON ID: f51a118d-7699-4b92-963a-c573be5fd1c1.\n        Collection name: Tests ROR National.\n        Request name: ws-diffusion-fhir / HealthcareService - Tous critères / Serice_type (|[code]).\n        Test description: Service-type=|[code].\n        Error message: expected false to be true.\n        Stacktrace: AssertionError: expected false to be true\n   at Object.eval sandbox-script.js:1:19).\n      ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "773015bdd4e336fd.json",
+  "parameterValues" : [ ]
+}

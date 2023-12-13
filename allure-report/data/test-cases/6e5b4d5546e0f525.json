@@ -1,0 +1,39 @@
+{
+  "uid" : "6e5b4d5546e0f525",
+  "name" : "ws-diffusion-fhir / HealthcareService - Tous critères / Last_updated gt (>= 1 résultat) Copy / Last updated supérieur",
+  "time" : {
+    "duration" : 249
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Tests ROR National"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e5b4d5546e0f525.json",
+  "parameterValues" : [ ]
+}
